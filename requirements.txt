@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 prometheus-client
-aioredis
+redis

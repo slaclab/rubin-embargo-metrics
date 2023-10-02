@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from prometheus_client import make_asgi_app, Counter
-import aioredis
+from redis import asyncio as aioredis
 
 from os import environ
 import logging
